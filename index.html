@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/css.css">
+    <!-- J-Query -->
+    <script src="bootstrap-v5/js/jQuery.js"></script>
+    <!-- Bootstrap CSS + JS -->
+    <link rel="stylesheet" href="bootstrap-v5/css/bootstrap.css">
+    <script src="bootstrap-v5/js/bootstrap.js"></script>
+    <!-- Fontawesome-icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom font-link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,800;1,900&family=Raleway:wght@200;300;400;500;600;700;800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Import owl-carousel -->
+    <link rel="stylesheet" href="owl_carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl_carousel/css/owl.theme.default.css">
+    <script src="owl_carousel/js/owl.carousel.min.js"></script>
+
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden;
+            font-family: 'Jost', sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top bgColor mb-5">
+    <div class="container pt-2 pb-2">
+        <a class="navbar-brand fw-bold" href="#">
+            Portfolio<span class="color-primary">.</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <div class="d-flex content__item">
+                <button class="link link--eirene underline-link">Download CV</button>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- /.navbar-->
+
+<!-- header -->
+<div class="container pt-5">
+    <div class="row d-flex justify-content-center align-items-center">
+        <!-- title + paragraph (animation) + button -->
+        <div class="col-12 col-md-6 col-lg-6 pt-5">
+            <div>
+                <!-- header title -->
+                <div class="header-tag color-primary">
+                    <span>I'm</span>
+                </div>
+                <div class="header-title">
+                    <p>MUHAMMAD <br> FAHEEM</p>
+                </div>
+
+                <!-- header paragraph (animation) -->
+                <div class="header-paragraph">
+                    <p>A passionate&nbsp;<span class="txt-rotate color-primary fw-semibold" data-period="2000" data-rotate='[ "Web Developer.", "Graphic Designer.", "UI/UX Designer."]'></span></p>
+                </div>
+
+                <!-- header button -->
+                <div class="pt-4">
+                    <a href="#" class="button button-primary slide-right-primary">Get in touch</a>
+                </div>
+            </div>
+        </div>
+        <!-- picture -->
+        <div class="col-12 col-md-6 col-lg-6 pt-5">
+            <div class="bounce-parent">
+                <div class="text-center">
+                    <img src="https://i.ibb.co/58BBv7W/header-img.png" class="img-fluid" alt="Header Image">
+                </div>
+                <div class="bounce-child">
+                    <div class="bounce-item d-flex bg-white p-2">
+                        <div>
+                            <img src="https://img.icons8.com/ios/50/null/figma--v1.png"/>
+                        </div>
+                        <div class="tool">
+                            <div class="tool-title">
+                                <span>Figma</span>
+                            </div>
+                            <span>Designing</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bounce--child">
+                    <div class="bounce-item d-flex bg-white p-2">
+                        <div>
+                            <img src="https://img.icons8.com/ios/50/null/adobe-illustrator--v1.png"/>
+                        </div>
+                        <div class="tool">
+                            <div class="tool-title">
+                                <span>Illustrator</span>
+                            </div>
+                            <span>Graphics</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bounce---child">
+                    <div class="bounce-item d-flex bg-white p-2">
+                        <div>
+                            <img src="https://img.icons8.com/ios/50/null/visual-studio.png"/>
+                        </div>
+                        <div class="tool">
+                            <div class="tool-title">
+                                <span>VS Code</span>
+                            </div>
+                            <span>Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.header -->
+
+<!-- about -->
+<div class="about-background my-5" id="about">
+    <div class="container py-5">
+        <div class="row pb-5 d-flex align-items-center">
+            <!-- about ( text ) -->
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-5">
+                <div>
+                    <!-- about - title -->
+                    <div class="section-title text-white">
+                        <span>About Me</span>
+                    </div>
+                    <!-- about - heading -->
+                    <div class="heading-lg text-white">
+                        <span>How I Became <span class="color-primary">Best</span> Among Others.</span>
+                    </div>
+                    <!-- about - paragraph -->
+                    <div class="text-lg color-light manage-text pt-4">
+                        <p>I am Muhammad Faheem, with a strong focus in developing and designing. I love to get new experiences
+                            and always learn from my surroundings. I've done more than 25 projects. You can check it through
+                            portfolio section on this website and I am looking forward to opportunities and challenges.</p>
+                    </div>
+                    <!-- about - contact + signature -->
+                    <div class="pt-4 d-flex align-items-center">
+                        <div class="text-lg text-white">
+                            <!-- phone -->
+                            <div class="d-flex align-items-center">
+                                <div><img src="images/phone-icon.png" height="44px" width="44px" alt="Mail Icon"></div>
+                                <div class="mx-3">+92 301 650 2026</div>
+                            </div>
+                            <!-- mail -->
+                            <div class="d-flex align-items-center pt-3">
+                                <div><img src="images/mail-icon.png" height="44px" width="44px" alt="Mail Icon"></div>
+                                <div class="mx-3">faheem@gmail.com</div>
+                            </div>
+                        </div>
+                        <!-- vertical line -->
+                        <div class="vl"></div>
+                        <!-- signature -->
+                        <div>
+                            <img src="https://i.ibb.co/4Z38ZGV/signature.png" alt="Signature">
+                        </div>
+                    </div>
+                    <!-- about - button -->
+                    <div class="pt-5">
+                        <a href="#projects" class="button button-secondary slide-right-secondary">View Projects</a>
+                    </div>
+                </div>
+            </div>
+            <!-- /.about ( text ) -->
+
+            <!-- about ( counter ) -->
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 pt-5 counter-show">
+                <!-- projects -->
+                <div class="bg-white">
+                    <div class="text-center p-4">
+                        <p class="counter-text">Completed</p>
+                        <div class="timer count-number">25</div>
+                        <p class="counter-text">Projects</p>
+                    </div>
+                </div>
+                <!-- reviews -->
+                <div class="bg-white mt-5">
+                    <div class="text-center p-4">
+                        <p class="counter-text">Satisfied</p>
+                        <div class="timer count-number">2500</div>
+                        <p class="counter-text">Reviews</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 pt-5">
+                <!-- customers -->
+                <div class="bg-white">
+                    <div class="text-center p-4">
+                        <p class="counter-text">Happy</p>
+                        <div class="timer count-number">750</div>
+                        <p class="counter-text">Customers</p>
+                    </div>
+                </div>
+                <!-- awards -->
+                <div class="bg-white mt-5">
+                    <div class="text-center p-4">
+                        <p class="counter-text">Total</p>
+                        <div class="timer count-number">1100</div>
+                        <p class="counter-text">Awards</p>
+                    </div>
+                </div>
+            </div>
+            <!-- about ( counter ) -->
+        </div>
+    </div>
+</div>
+<!-- /.about -->
+
+<!-- services -->
+<div class="container pb-5" id="services">
+    <div class="row flex-column-reverse flex-lg-row d-flex justify-content-center align-items-center">
+        <div class="col-12 col-md-6 col-lg-3 pt-5">
+            <!-- service ( card - 1 ) -->
+            <div class="card">
+                <!-- card inner -->
+                <div class="p-3">
+                    <div class="text-center content">
+                        <!-- service icon -->
+                        <div class="p-5">
+                            <img src="https://img.icons8.com/wired/64/null/web-design.png" class="img-fluid imgBx p-2" height="34"/>
+                        </div>
+                        <!-- service title -->
+                        <div class="contentBx">
+                            <h3>UI/UX<br><span>Designing</span></h3>
+                        </div>
+                        <!-- about service -->
+                        <div class="text-md text-muted">
+                            <p>Simply dummy text of the print and typesetting industry lorem Ipsum has been standard.</p>
+                        </div>
+                    </div>
+                    <!-- service link -->
+                    <ul class="sci text-center pr-5">
+                        <li class="content-item">
+                            <a href="#" class="link link-elara">
+                                <span>Read More</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 pt-5">
+            <!-- service ( card - 2 ) -->
+            <div class="card">
+                <!-- card inner -->
+                <div class="p-3">
+                    <div class=" text-center content">
+                        <!-- service icon -->
+                        <div class="p-5">
+                            <img src="https://img.icons8.com/wired/64/null/google-code.png" class="img-fluid imgBx p-2" height="34"/>
+                        </div>
+                        <!-- service title -->
+                        <div class="contentBx">
+                            <h3>Web<br><span>Development</span></h3>
+                        </div>
+                        <!-- about service -->
+                        <div class="text-md text-muted">
+                            <p>Simply dummy text of the print and typesetting industry lorem Ipsum has been standard.</p>
+                        </div>
+                    </div>
+                    <!-- service link -->
+                    <ul class="sci text-center pr-5">
+                        <li class="content-item">
+                            <a href="#" class="link link-elara">
+                                <span>Read More</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- service ( card - 3 ) -->
+            <div class="card mt-4">
+                <!-- card inner -->
+                <div class="p-3">
+                    <div class=" text-center content">
+                        <!-- service icon -->
+                        <div class="p-5">
+                            <img src="https://img.icons8.com/wired/64/null/design.png" class="img-fluid imgBx p-2" height="34"/>
+                        </div>
+                        <!-- service title -->
+                        <div class="contentBx">
+                            <h3>Graphic<br><span>Designing</span></h3>
+                        </div>
+                        <!-- about service -->
+                        <div class="text-md text-muted">
+                            <p>Simply dummy text of the print and typesetting industry lorem Ipsum has been standard.</p>
+                        </div>
+                    </div>
+                    <!-- service link -->
+                    <ul class="sci text-center pr-5">
+                        <li class="content-item">
+                            <a href="#" class="link link-elara">
+                                <span>Read More</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- services (about) -->
+        <div class="col-12 col-md-6 col-lg-6 pt-5">
+            <div>
+                <!-- tag -->
+                <div class="section-title color-primary">
+                    <span>About My Services</span>
+                </div>
+                <!-- heading -->
+                <div class="heading-lg">
+                    <span>What Can I Do</span>
+                </div>
+                <!-- Paragraph -->
+                <div class="text-lg text-muted pt-3">
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                    <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden the middle.</p>
+                </div>
+                <div class="pt-3">
+                    <a href="#contact" class="button button-primary slide-right-primary">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.services -->
+
+<!-- recent projects -->
+<div class="bg-light min-height my-5" id="projects">
+    <div class="container pt-5 pb-5">
+        <!-- section header -->
+        <div class="text-center heading-lg">
+            <p>My Recent <span class="color-primary">Projects</span> <br> List Below.</p>
+        </div>
+
+        <!-- projects ( inner ) -->
+        <div class="row">
+            <div class="col-lg-12 pt-5 pb-5">
+                <div class="wrapper">
+                    <div id="project-carousel" class="owl-carousel owl-theme img-carousel">
+                        <!-- project - 1 -->
+                        <div class="project-parent-div">
+                            <img src="https://i.ibb.co/bb8zqnn/project1.jpg" class="project-img img-fluid" alt="Project Image">
+                            <div class="project-child-div p-3">
+                                <span>01</span>
+                            </div>
+                            <div class="p-3 pt-5">
+                                <span class="text-lg fw-medium text-black pt-5">Graphic Design</span>
+                                <div class="pt-2">
+                                    <a href="#" class="project-link text-black">Niva Logo Design</a>
+                                </div>
+                                <div class="pt-2">
+                                    <li class="content-item list-unstyled">
+                                        <a href="#" class="link link-carpo text-md">Read More</a>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- project - 2 -->
+                        <div class="project-parent-div">
+                            <img src="https://i.ibb.co/k2RYdSG/project2.jpg" class="project-img img-fluid" alt="Project Image">
+                            <div class="project-child-div p-3">
+                                <span>02</span>
+                            </div>
+                            <div class="p-3 pt-5">
+                                <span class="text-lg fw-medium text-black pt-5">Figma</span>
+                                <div class="pt-2">
+                                    <a href="#" class="project-link text-black">Venor Figma Theme</a>
+                                </div>
+                                <div class="pt-2">
+                                    <li class="content-item list-unstyled">
+                                        <a href="#" class="link link-carpo read-blog">Read More</a>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- project - 3 -->
+                        <div class="project-parent-div">
+                            <img src="https://i.ibb.co/CmBcQ8y/project3.jpg" class="project-img img-fluid" alt="Project Image">
+                            <div class="project-child-div p-3">
+                                <span>03</span>
+                            </div>
+                            <div class="p-3 pt-5">
+                                <span class="text-lg fw-medium text-black pt-5">UI/UX</span>
+                                <div class="pt-2">
+                                    <a href="#" class="project-link text-black">Override the digital</a>
+                                </div>
+                                <div class="pt-2">
+                                    <li class="content-item list-unstyled">
+                                        <a href="#" class="link link-carpo read-blog">Read More</a>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- project - 4 -->
+                        <div class="project-parent-div">
+                            <img src="https://i.ibb.co/0GXsF9t/project4.jpg" class="project-img img-fluid" alt="Project Image">
+                            <div class="project-child-div p-3">
+                                <span>04</span>
+                            </div>
+                            <div class="p-3 pt-5">
+                                <span class="text-lg fw-medium text-black pt-5">React</span>
+                                <div class="pt-2">
+                                    <a href="#" class="project-link text-black">Holistic Work View Theme</a>
+                                </div>
+                                <div class="pt-2">
+                                    <li class="content-item list-unstyled">
+                                        <a href="#" class="link link-carpo read-blog">Read More</a>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- project ( owl-carousel ) -->
+                <script>
+                    $(document).ready(function (){
+                        $("#project-carousel").owlCarousel({
+                            items: 3,
+                            loop: false,
+                            nav: true,
+                            dots: false,
+                            navText: ["<span><i class=\"fa-solid fa-arrow-left-long\"></i></span>","<span><i class=\"fa-solid fa-arrow-right-long\"></i></span>"],
+                            autoplay: false,
+                            autoplayTimeout: 5000,
+                            smartSpeed: 450,
+                            margin: 20,
+                            responsive: {
+                                0: {
+                                    items: 1
+                                },
+                                768: {
+                                    items: 2
+                                },
+                                991: {
+                                    items: 3
+                                },
+                                1200: {
+                                    items: 3
+                                },
+                                1920: {
+                                    items: 3
+                                },
+                            }
+                        });
+                    })
+                </script>
+            </div>
+        </div>
+        <!-- /.project ( inner ) -->
+    </div>
+</div>
+<!-- /.recent project -->
+
+<!-- testimonials  -->
+<div class="container py-5">
+    <!-- testimonials ( text ) -->
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 pt-5">
+            <div class="p-4">
+                <div class="section-title color-primary">
+                    <span>What client says about me</span>
+                </div>
+                <div class="heading-lg">
+                    <p>Our Clients & Reviews</p>
+                </div>
+                <div class="text-md pt-2">
+                    <p>Most common methods for designing websites that work well on desktop is responsive and adaptive design</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- testimonials ( owl-carousel ) -->
+        <div class="col-12 col-md-6 col-lg-8">
+            <div class="p-4">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="wrapper">
+                            <div id="testimonial-carousel" class="owl-carousel owl-theme img-carousel">
+                                <!-- testimonial - 1 -->
+                                <div class="pt-3">
+                                    <div class="p-2">
+                                        <!-- testimonial image -->
+                                        <div class="d-flex justify-content-center">
+                                            <div class="reviewImg-1 border-img">
+                                                <i class="fa-solid fa-quote-right say-quote-icon"></i>
+                                            </div>
+                                        </div>
+                                        <!-- testimonial ( text ) -->
+                                        <div class="text-center">
+                                            <!-- name -->
+                                            <div class="text-lg fw-medium pt-3">
+                                                <span>Elsie</span>
+                                            </div>
+                                            <!-- about -->
+                                            <div class="py-2">
+                                                <span>Copyrighter</span>
+                                            </div>
+                                            <!-- paragraph -->
+                                            <div class="text-center text-muted fw-light">
+                                                <p>“ You don't need a whole ecommerce system to sell your online courses. Paypal, Stripe payment methods integration can help you sell your courses.”</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- testimonial - 2 -->
+                                <div class="pt-3">
+                                    <div class="p-2">
+                                        <!-- review image -->
+                                        <div class="d-flex justify-content-center">
+                                            <div class="reviewImg-2 border-img">
+                                                <i class="fa-solid fa-quote-right say-quote-icon"></i>
+                                            </div>
+                                        </div>
+                                        <!-- review -->
+                                        <div class="text-center">
+                                            <!-- name -->
+                                            <div class="text-lg fw-medium pt-3">
+                                                <span>Anthony</span>
+                                            </div>
+                                            <!-- about -->
+                                            <div class="py-2">
+                                                <span>CEO</span>
+                                            </div>
+                                            <!-- paragraph -->
+                                            <div class="text-muted">
+                                                <p>“ You don't need a whole ecommerce system to sell your online courses. Paypal, Stripe payment methods integration can help you sell your courses.”</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- testimonial - 3 -->
+                                <div class="pt-3">
+                                    <div class="p-2">
+                                        <!-- review image -->
+                                        <div class="d-flex justify-content-center">
+                                            <div class="reviewImg-3 border-img">
+                                                <i class="fa-solid fa-quote-right say-quote-icon"></i>
+                                            </div>
+                                        </div>
+                                        <!-- review -->
+                                        <div class="text-center">
+                                            <!-- name -->
+                                            <div class="text-lg fw-medium pt-3">
+                                                <span>Susan Jackson</span>
+                                            </div>
+                                            <!-- about -->
+                                            <div class="py-2">
+                                                <span>WordPress Developer</span>
+                                            </div>
+                                            <!-- paragraph -->
+                                            <div class="text-center text-muted">
+                                                <p>“ You don't need a whole ecommerce system to sell your online courses. Paypal, Stripe payment methods integration can help you sell your courses.”</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- testimonial - 4 -->
+                                <div class="pt-3">
+                                    <div class="p-2">
+                                        <!-- review image -->
+                                        <div class="d-flex justify-content-center">
+                                            <div class="reviewImg-4 border-img">
+                                                <i class="fa-solid fa-quote-right say-quote-icon"></i>
+                                            </div>
+                                        </div>
+                                        <!-- review -->
+                                        <div class="text-center">
+                                            <!-- name -->
+                                            <div class="client-name fw-medium pt-3">
+                                                <span>Peter Packer</span>
+                                            </div>
+                                            <!-- about -->
+                                            <div class="py-2">
+                                                <span>Front-End Developer</span>
+                                            </div>
+                                            <!-- paragraph -->
+                                            <div class="text-center text-muted">
+                                                <p>“ You don't need a whole ecommerce system to sell your online courses. Paypal, Stripe payment methods integration can help you sell your courses.”</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- testimonials ( owl-carousel ) -->
+                        <script>
+                            $(document).ready(function (){
+                                $("#testimonial-carousel").owlCarousel({
+                                    items: 4,
+                                    loop: true,
+                                    autoplay: true,
+                                    autoplayTimeout: 5000,
+                                    smartSpeed: 450,
+                                    margin: 20,
+                                    // touchDrag: false,
+                                    // mouseDrag: false,
+                                    responsive: {
+                                        0: {
+                                            items: 1
+                                        },
+                                        768: {
+                                            items: 1
+                                        },
+                                        991: {
+                                            items: 2
+                                        },
+                                        1200: {
+                                            items: 2
+                                        },
+                                        1920: {
+                                            items: 2
+                                        },
+                                    }
+                                });
+                            })
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.testimonials  -->
+
+<!-- subscribe -->
+<div class="container-fluid subscribe-background min-height my-5">
+    <div class="pt-5 pb-5">
+        <!-- subscribe ( text ) -->
+        <div class="text-center">
+            <!-- subscribe - title -->
+            <div class="heading-lg text-white">
+                <p><span class="text-underline">Subscribe</span> to Newsletter</p>
+            </div>
+            <!-- subscribe - paragraph -->
+            <div class="text-lg text-white pt-3">
+                <p>It is a long established fact that a reader will br distracted by the readable content of the page when looking at this layout</p>
+            </div>
+        </div>
+        <!-- subscribe ( form ) -->
+        <div class="d-flex justify-content-center pt-3">
+            <div class="position-relative">
+                <input type="text" class="subscribe-field input-color" placeholder="Enter your email address">
+                <button type="submit" class="button-light slide-right-light position-absolute">Subscribe</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.subscribe -->
+
+<!-- updates & blogs -->
+<div class="container py-5">
+    <!-- heading section -->
+    <div class="text-center">
+        <div class="section-title">
+            <span>From My Blogs</span>
+        </div>
+        <div class="heading-lg pt-2">
+            <p>My Recent <span class="color-primary">Updates</span> & Blog</p>
+        </div>
+    </div>
+
+    <!-- blog (inner) -->
+    <div class="row pb-5">
+        <div class="col-lg-12 pt-5">
+            <div class="wrapper">
+                <div id="blog-carousel" class="owl-carousel owl-theme img-carousel">
+                    <!-- blog card - 1 -->
+                    <div class="parent-div">
+                        <img src="https://i.ibb.co/zsqmFfh/blog1.jpg" class="img-fluid" alt="">
+                        <div class="content-div blog-title">
+                            <span>SEO, Marketing</span>
+                            <a href="#">Web Development</a>
+                            <div class="color-light pt-3">
+                                <span>10/09/2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- blog card - 2 -->
+                    <div class="parent-div">
+                        <img src="https://i.ibb.co/7VfWBFH/blog2.jpg" class="img-fluid" alt="">
+                        <div class="content-div blog-title">
+                            <span>SEO, Marketing</span>
+                            <a href="#">Graphic Designing</a>
+                            <div class="pt-3" style="color: #bbbbbb">
+                                <span>18/03/2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- blog card - 3 -->
+                    <div class="parent-div">
+                        <img src="https://i.ibb.co/Lnw2L7L/blog3.jpg" class="img-fluid" alt="">
+                        <div class="content-div blog-title">
+                            <span>SEO, Marketing</span>
+                            <a href="#">Frontend Development</a>
+                            <div class="pt-3" style="color: #bbbbbb">
+                                <span>03/07/2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- blog card - 4 -->
+                    <div class="parent-div">
+                        <img src="https://i.ibb.co/mDwzHPy/blog4.jpg" class="img-fluid" alt="">
+                        <div class="content-div blog-title">
+                            <span>SEO, Marketing</span>
+                            <a href="#">UI/UX Designing</a>
+                            <div class="pt-3" style="color: #bbbbbb">
+                                <span>21/11/2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- blog (owl-carousel) -->
+            <script>
+                $(document).ready(function (){
+                    $("#blog-carousel").owlCarousel({
+                        items: 4,
+                        loop: false,
+                        dots: false,
+                        autoplay: false,
+                        autoplayTimeout: 5000,
+                        smartSpeed: 450,
+                        margin: 20,
+                        responsive: {
+                            0: {
+                                items: 1
+                            },
+                            768: {
+                                items: 2
+                            },
+                            991: {
+                                items: 3
+                            },
+                            1200: {
+                                items: 3
+                            },
+                            1920: {
+                                items: 4
+                            },
+                        }
+                    });
+                })
+            </script>
+        </div>
+    </div>
+    <!-- /.blog (inner) -->
+</div>
+<!-- /.updates & blogs -->
+
+<!-- trusted partners -->
+<div class="min-height bg-light mt-5">
+    <div class="container pt-5 pb-5">
+        <!-- section head -->
+        <div class="text-center">
+            <div>
+                <!-- heading -->
+                <div class="heading-lg text-black">
+                    <p>Trusted By <span class="text-underline">Great Partners</span></p>
+                </div>
+            </div>
+
+            <!-- partner's -->
+            <div class="row pt-1">
+                <!-- logo-1 -->
+                <div class="col-12 col-md-6 col-lg-3 pt-4">
+                    <div class="bg-white">
+                        <img src="https://i.ibb.co/j5jZj7T/b1.png" alt="Partner Logo">
+                    </div>
+                </div>
+
+                <!-- logo-2 -->
+                <div class="col-12 col-md-6 col-lg-3 pt-4">
+                    <div class="bg-white">
+                        <img src="https://i.ibb.co/j6HCH7c/b2.png" alt="Partner Logo">
+                    </div>
+                </div>
+
+                <!-- logo-3 -->
+                <div class="col-12 col-md-6 col-lg-3 pt-4">
+                    <div class="bg-white">
+                        <img src="https://i.ibb.co/Xzcztyc/b3.png" alt="Partner Logo">
+                    </div>
+                </div>
+
+                <!-- logo-4 -->
+                <div class="col-12 col-md-6 col-lg-3 pt-4">
+                    <div class="bg-white">
+                        <img src="https://i.ibb.co/bWK0FRF/b4.png" alt="Partner Logo">
+                    </div>
+                </div>
+
+                <!-- logo-5 -->
+                <div class="col-12 col-md-6 col-lg-3 pt-4">
+                    <div class="bg-white">
+                        <img src="https://i.ibb.co/kBfcggg/b5.png" alt="Partner Logo">
+                    </div>
+                </div>
+
+                <!-- logo-6 -->
+                <div class="col-12 col-md-6 col-lg-3 pt-4">
+                    <div class="bg-white">
+                        <img src="https://i.ibb.co/82Q3GzD/b6.png" alt="Partner Logo">
+                    </div>
+                </div>
+
+                <!-- logo-7 -->
+                <div class="col-12 col-md-6 col-lg-3 pt-4">
+                    <div class="bg-white">
+                        <img src="https://i.ibb.co/r5Crdsp/b7.png" alt="Partner Logo">
+                    </div>
+                </div>
+
+                <!-- logo-8 -->
+                <div class="col-12 col-md-6 col-lg-3 pt-4">
+                    <div class="bg-white">
+                        <img src="https://i.ibb.co/j6HCH7c/b2.png" alt="Partner Logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.trusted partners -->
+
+<!-- form + contact info -->
+<div class="container py-5" id="contact">
+    <div class="row g-0 py-3">
+        <!-- address + mail + call -->
+        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 pt-5">
+            <div class="bg-white text-center pt-4 pb-2" style="box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;">
+                <!-- address -->
+                <div class="pt-2">
+                    <!-- -->
+                    <div>
+                        <img src="https://img.icons8.com/ios/50/null/place-marker--v1.png" class="icon-background"/>
+                    </div>
+                    <!-- -->
+                    <div class="pt-3">
+                        <h4>Address</h4>
+                    </div>
+                    <!-- -->
+                    <div>
+                        <p class="text-muted">Pakistan, Faisalabad st 112</p>
+                    </div>
+                </div>
+
+                <!-- email -->
+                <div class="pt-2">
+                    <!-- -->
+                    <div>
+                        <img src="https://img.icons8.com/ios/50/000000/ringer-volume.png" class="icon-background"/>
+                    </div>
+                    <!-- -->
+                    <div class="pt-3">
+                        <h4>Call Now</h4>
+                    </div>
+                    <!-- -->
+                    <div>
+                        <p class="text-muted">+92 301 650 2026</p>
+                    </div>
+                </div>
+
+                <!-- call -->
+                <div class="pt-2">
+                    <!-- -->
+                    <div>
+                        <img src="https://img.icons8.com/ios/50/null/secured-letter&#45;&#45;v1.png" class="icon-background"/>
+                    </div>
+                    <!-- -->
+                    <div class="pt-3">
+                        <h4>Email</h4>
+                    </div>
+                    <!-- -->
+                    <div>
+                        <p class="text-muted">faheem@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.address + mail + call -->
+
+        <!-- contact form -->
+        <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 pt-5">
+            <div class="form-background p-5">
+                <div class="text-white">
+                    <span>Contact Me</span>
+                </div>
+                <div class="heading-lg text-white">
+                    <p>Have Any Question<span class="color-primary"> ?</span></p>
+                </div>
+                <!-- form -->
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 pt-3">
+                        <div class="field-group">
+                            <input type="text" name="name" class="input-field" placeholder="Name" autocomplete="off">
+                        </div>
+                    </div>
+                    <!-- -->
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 pt-3">
+                        <div class="field-group">
+                            <input type="email" name="email" class="input-field" placeholder="Email" autocomplete="off">
+                        </div>
+                    </div>
+                    <!-- -->
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-3">
+                        <div class="field-group">
+                            <input type="text" name="subject" class="input-field" placeholder="Subject" autocomplete="off">
+                        </div>
+                    </div>
+                    <!-- -->
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-3">
+                        <div class="field-group">
+                            <textarea type="text" class="input-field" name="message" rows="3" placeholder="Message" autocomplete="off"></textarea>
+                        </div>
+                    </div>
+                    <!-- -->
+                    <div class="pt-5">
+                        <button class="submit-button slide-right-submit">Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.contact form -->
+    </div>
+</div>
+<!-- /.form + contact info -->
+
+<!-- map -->
+<div class="pt-5">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108948.88005178224!2d73.01926108772926!3d31.42369
+    894323501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392242a895a55ca9%3A0xdec58f88932671c6!2sFaisalabad%2C%
+    20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1681212321317!5m2!1sen!2s" class="map" width="100%" height="450" style="border:0;"
+    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<!-- /.map -->
+
+<!-- footer -->
+<div class="container-fluid">
+    <!-- inner footer -->
+    <div class="row">
+        <!-- footer (title + heading) -->
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-5" style="background-color: black">
+            <div class="text-center text-white">
+                <div>
+                    <p class="footer-title">READY TO DO THIS</p>
+                </div>
+                <div>
+                    <p class="footer-heading">Let<span class="white-outline">'</span>s Work <br> Together</p>
+                </div>
+                <div class="pt-3">
+                    <a class="button button-secondary slide-right-secondary" href="#">Get the offer</a>
+                </div>
+            </div>
+        </div>
+        <!-- footer (links) -->
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-5 d-flex justify-content-center align-items-center" style="background-color: #ffffff">
+            <div>
+                <div class="row">
+                    <!-- quick links -->
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div>
+                            <!-- links heading -->
+                            <div>
+                                <span class="links-heading text-underline">Quick Links</span>
+                            </div>
+                            <!-- links -->
+                            <ul class="list-unstyled pt-4">
+                                <li><a href="#" class="links">GDPR</a></li>
+                                <li class="py-2"><a href="#" class="links">Terms and conditions</a></li>
+                                <li><a href="#" class="links">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- say hello -->
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div>
+                            <div>
+                                <!-- links heading -->
+                                <div>
+                                    <span class="links-heading text-underline">Say Hello</span>
+                                </div>
+                                <!-- links -->
+                                <ul class="list-unstyled pt-4">
+                                    <li><a href="https://zeeshandev.com/" target="_blank" class="links">faheem.com</a></li>
+                                    <li class="pt-2"><a href="#" class="links">faheem@gmail.com</a></li>
+                                    <li class="pt-2">
+                                        <a href="#" class="footer-icons"><i class="fa-brands fa-facebook-f fa-1x"></i></a>
+                                        <a href="#" class="footer-icons mx-2"><i class="fa-brands fa-twitter fa-1x"></i></a>
+                                        <a href="#" class="footer-icons"><i class="fa-brands fa-linkedin-in fa-1x"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer (paragraph) -->
+                <div class="pt-5">
+<!--                    <p class="footer-paragraph">© 2021. All rights reserved by <a href="https://zeeshandev.com/" target="_blank" class="my-name">zeeshandev</a>. We are tracking any intention of piracy.</p>-->
+                    <p class="footer-paragraph">© 2023. Developed with love by <a href="#" target="_blank" class="my-name">M.Faheem</a>. We are tracking any intention of piracy.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.inner footer -->
+</div>
+<!-- /.footer -->
+
+<!-- scroll top button -->
+<button onclick="topFunction()" id="myBtn"><i class="fa-solid fa-arrow-up"></i></button>
+
+<!-- Include Custom JS -->
+<script src="js/js.js"></script>
+
+</body>
+</html>
